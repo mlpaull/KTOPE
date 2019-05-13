@@ -1,0 +1,10 @@
+imune-processor.jar SOFTWARE
+
+Copyright (c) 2019 TIM JOHNSTON
+Adapted from Pantazes, Robert J., et al. "Identification of disease-specific motifs 
+in the antibody specificity repertoire via next-generation sequencing." 
+Scientific reports 6 (2016): 30312. 
+
+For research, non-profit, and non-commercial use. Commercial use requires a 
+license from UCSB Technology & Industry Alliances.
+
