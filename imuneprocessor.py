@@ -379,7 +379,8 @@ class IMUNE_processor:
         t1 = time.time()
         #Use subprocess.run to use command line arguments
         p = subprocess.run(command,stderr=subprocess.PIPE,
-                          stdout=subprocess.PIPE,universal_newlines=True)
+                          stdout=subprocess.PIPE,universal_newlines=True,
+                          shell=True)
         timing = time.time()-t1
         errors = p.stderr
         stdout = p.stdout
@@ -458,7 +459,8 @@ class IMUNE_processor:
         t1 = time.time()
         #Use subprocess.run to use command line arguments
         p = subprocess.run(command,stderr=subprocess.PIPE,
-                          stdout=subprocess.PIPE,universal_newlines=True)
+                          stdout=subprocess.PIPE,universal_newlines=True,
+                          shell=True)
         timing = time.time()-t1
         errors = p.stderr
         stdout = p.stdout
