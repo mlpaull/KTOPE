@@ -228,7 +228,7 @@ class Protein:
             return False
             
     def load_or_search(self):
-        """Tries loading, if it doens't work, it searhes the sequence"""
+        """Tries loading, if it doens't work, it searches the sequence"""
         loaded = self.load_protein()
         if not loaded:
             self.uniprot_sequence()
